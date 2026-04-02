@@ -4,12 +4,12 @@ import { json } from 'body-parser'
 import authRoutes from './modules/auth/auth.routes'
 import trackingRoutes from './modules/tracking/tracking.routes'
 import analyticsRoutes from './modules/analytics/analytics.routes'
-import { FRONTEND_URL } from './config/env'
+import { FRONTEND_ORIGIN } from './config/env'
 
 const app = express()
 
 const allowedOrigins = [
-  FRONTEND_URL,
+  FRONTEND_ORIGIN,
   'http://localhost:3000',
   'http://localhost:5173',
   'http://127.0.0.1:3000',
