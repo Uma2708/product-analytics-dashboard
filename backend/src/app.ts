@@ -13,6 +13,7 @@ app.use('/api/auth', authRoutes)
 app.use('/api/track', trackingRoutes)
 app.use('/api/analytics', analyticsRoutes)
 
+app.get('/healthz', (req, res) => res.status(200).send('OK'))
 app.get('/api/health', (req, res) => res.json({ ok: true }))
 
 export default app
