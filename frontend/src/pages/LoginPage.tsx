@@ -28,12 +28,12 @@ export default function LoginPage() {
 
   const signInAsDemo = async () => {
     setError(null)
-    setUsername('user2')
-    setPassword('password')
+    setUsername('Uma21')
+    setPassword('Uma@12345')
 
     try {
       setSubmitting(true)
-      await doLogin('user2', 'password')
+      await doLogin('Uma21', 'Uma@12345')
       nav('/')
     } catch (err: any) {
       setError(err?.response?.data?.message || 'Demo login failed')
@@ -86,10 +86,10 @@ export default function LoginPage() {
           </div>
 
           <div className="story-card" style={{ marginTop: 0 }}>
-            <div className="story-card__label">Demo account</div>
+            <div className="story-card__label">Default account</div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
               <div style={{ color: 'rgba(230,238,248,0.85)', lineHeight: 1.5 }}>
-                Username: <strong>user2</strong> Password: <strong>password</strong>
+                Username: <strong>Uma21</strong> Password: <strong>Uma@12345</strong>
               </div>
               <button
                 type="button"
@@ -163,8 +163,8 @@ export default function LoginPage() {
                 type="button"
                 className="ghost ghost--auth"
                 onClick={() => {
-                  setUsername('user2')
-                  setPassword('password')
+                  setUsername('Uma21')
+                  setPassword('Uma@12345')
                   setError(null)
                 }}
                 disabled={submitting}
