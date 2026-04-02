@@ -66,7 +66,7 @@ export default function LoginPage() {
             <ul className="feature-list">
               <li>Realtime-style overview cards with crisp, low-noise visuals</li>
               <li>One-click demo access with a real seeded account for quick walkthroughs</li>
-              <li>Dashboard-ready filters, charts, and segmentation views that stay readable when empty</li>
+              {/* <li>Dashboard-ready filters, charts, and segmentation views that stay readable when empty</li> */}
             </ul>
           </div>
 

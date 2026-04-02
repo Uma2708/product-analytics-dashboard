@@ -126,13 +126,10 @@ If this dashboard needed to handle 1 million write events per minute, I would sp
 
 This repository is ready for deployment, but a live public URL is not included in the local codebase. Typical options:
 
-- Backend: Render or Railway
-- Frontend: Vercel or Netlify
+- Backend: Render
+- Frontend: Vercel
 
-## Demo Credentials
 
-- Username: `user2`
-- Password: `password`
 
 ## Notes
 
