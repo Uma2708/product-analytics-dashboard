@@ -35,8 +35,8 @@ body{
 .card{background: linear-gradient(135deg, rgba(249,115,22,0.05) 0%, rgba(245,158,11,0.05) 100%); padding:20px;border-radius:14px;box-shadow:0 12px 40px rgba(2,6,23,0.6);border:1px solid rgba(249,115,22,0.1)}
 
 h1,h2,h3{margin:0 0 12px}
-h1{ background: linear-gradient(90deg, #fff 0%, #fb923c 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:32px}
-h2{font-weight:700; background: linear-gradient(90deg, #e6eef8 0%, #fdba74 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+h1{ background: linear-gradient(90deg, #fff 0%, #fb923c 100%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:32px}
+h2{font-weight:700; background: linear-gradient(90deg, #e6eef8 0%, #fdba74 100%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
 h3{font-weight:600; color:#e6eef8}
 
 /* Enhanced auth card layout */
@@ -198,6 +198,7 @@ h3{font-weight:600; color:#e6eef8}
 	line-height:1.02;
 	letter-spacing:-0.03em;
 	background:linear-gradient(135deg, #ffffff 0%, #fed7aa 42%, #fb923c 100%);
+	background-clip:text;
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }

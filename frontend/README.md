@@ -7,7 +7,8 @@ Quick start:
 ```bash
 cd frontend
 npm install
+cp .env.example .env
 npm run dev
 ```
 
-Set backend URL with `VITE_API_URL` env var.
+Set the backend URL with `VITE_API_URL` in `frontend/.env`.
